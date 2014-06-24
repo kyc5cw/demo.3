@@ -1,4 +1,6 @@
 Demo::Application.routes.draw do
+  resources :boards
+
   resources :projects
 
   resources :organizations do
