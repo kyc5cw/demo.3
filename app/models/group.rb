@@ -6,4 +6,5 @@ class Group < ActiveRecord::Base
   has_many :communities
   has_many :projects
   has_many :organizations
+  has_many :groupings
 end
