@@ -1,5 +1,11 @@
 Demo::Application.routes.draw do
-  resources :boards
+  resources :boards do
+  #->Prelang (voting/acts_as_votable)
+  member do
+    get "vote"
+  end
+end
+
 
   resources :projects
 
