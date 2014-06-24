@@ -1,4 +1,6 @@
 Demo::Application.routes.draw do
+  resources :profiles
+
   resources :communities do
   #->Prelang (voting/acts_as_votable)
   member do
