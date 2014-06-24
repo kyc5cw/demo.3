@@ -9,4 +9,5 @@ class Group < ActiveRecord::Base
   has_many :groupings
   has_many :memberships
   has_many :users
+  has_many :affiliations
 end
