@@ -4,4 +4,5 @@ class Group < ActiveRecord::Base
   belongs_to :organization
   belongs_to :project
   has_many :communities
+  has_many :projects
 end
