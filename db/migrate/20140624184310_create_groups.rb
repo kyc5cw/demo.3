@@ -1,0 +1,12 @@
+class CreateGroups < ActiveRecord::Migration
+  def change
+    create_table :groups do |t|
+      t.references :user, index: true
+      t.references :community, index: true
+      t.references :organization, index: true
+      t.references :project, index: true
+
+      t.timestamps
+    end
+  end
+end
