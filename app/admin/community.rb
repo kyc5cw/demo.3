@@ -1,4 +1,5 @@
 ActiveAdmin.register Community do
+  permit_params :name, :location, :scope, :verified
 
   
   # See permitted parameters documentation:
