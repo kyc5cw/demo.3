@@ -1,4 +1,5 @@
 ActiveAdmin.register Organization do
+  permit_params :name, :contact, :about, :verified
 
   
   # See permitted parameters documentation:
