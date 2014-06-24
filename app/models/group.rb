@@ -7,4 +7,5 @@ class Group < ActiveRecord::Base
   has_many :projects
   has_many :organizations
   has_many :groupings
+  has_many :memberships
 end
